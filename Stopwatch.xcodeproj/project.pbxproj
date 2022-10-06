@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5A2016E28EF6EDC00E1B649 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2016D28EF6EDC00E1B649 /* TableRow.swift */; };
 		D5BD122628EDF8BE00EA18E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD122528EDF8BE00EA18E8 /* AppDelegate.swift */; };
 		D5BD122828EDF8BE00EA18E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD122728EDF8BE00EA18E8 /* SceneDelegate.swift */; };
-		D5BD122A28EDF8BE00EA18E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD122928EDF8BE00EA18E8 /* ViewController.swift */; };
+		D5BD122A28EDF8BE00EA18E8 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD122928EDF8BE00EA18E8 /* Stopwatch.swift */; };
 		D5BD122D28EDF8BE00EA18E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BD122B28EDF8BE00EA18E8 /* Main.storyboard */; };
 		D5BD122F28EDF8C300EA18E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BD122E28EDF8C300EA18E8 /* Assets.xcassets */; };
 		D5BD123228EDF8C300EA18E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BD123028EDF8C300EA18E8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5A2016D28EF6EDC00E1B649 /* TableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		D5BD122228EDF8BE00EA18E8 /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BD122528EDF8BE00EA18E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5BD122728EDF8BE00EA18E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5BD122928EDF8BE00EA18E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5BD122928EDF8BE00EA18E8 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		D5BD122C28EDF8BE00EA18E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5BD122E28EDF8C300EA18E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BD123128EDF8C300EA18E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		D5BD121928EDF8BE00EA18E8 = {
 			isa = PBXGroup;
 			children = (
+				D5A2016D28EF6EDC00E1B649 /* TableRow.swift */,
 				D5BD122428EDF8BE00EA18E8 /* Stopwatch */,
 				D5BD122328EDF8BE00EA18E8 /* Products */,
 			);
@@ -58,7 +61,7 @@
 			children = (
 				D5BD122528EDF8BE00EA18E8 /* AppDelegate.swift */,
 				D5BD122728EDF8BE00EA18E8 /* SceneDelegate.swift */,
-				D5BD122928EDF8BE00EA18E8 /* ViewController.swift */,
+				D5BD122928EDF8BE00EA18E8 /* Stopwatch.swift */,
 				D5BD122B28EDF8BE00EA18E8 /* Main.storyboard */,
 				D5BD122E28EDF8C300EA18E8 /* Assets.xcassets */,
 				D5BD123028EDF8C300EA18E8 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BD122A28EDF8BE00EA18E8 /* ViewController.swift in Sources */,
+				D5BD122A28EDF8BE00EA18E8 /* Stopwatch.swift in Sources */,
+				D5A2016E28EF6EDC00E1B649 /* TableRow.swift in Sources */,
 				D5BD122628EDF8BE00EA18E8 /* AppDelegate.swift in Sources */,
 				D5BD122828EDF8BE00EA18E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stopwatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Секундомер";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,6 +322,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stopwatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Секундомер";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
