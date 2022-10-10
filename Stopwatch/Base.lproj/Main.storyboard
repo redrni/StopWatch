@@ -7,7 +7,6 @@
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ForrestGump" translatesAutoresizingMaskIntoConstraints="NO" id="dOP-vI-Kw6">
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ForrestGump" translatesAutoresizingMaskIntoConstraints="NO" id="wgW-yk-4t6">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I50-pc-yqx">
@@ -35,7 +34,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="GOe-nT-Qpb">
                                 <rect key="frame" x="0.0" y="255" width="390" height="22"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOD-UE-Pk8">
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOD-UE-Pk8">
                                         <rect key="frame" x="0.0" y="0.0" width="191" height="22"/>
                                         <color key="tintColor" name="White"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -100,26 +99,26 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Orange"/>
                         <constraints>
                             <constraint firstItem="EUe-q7-K8t" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2ML-FF-1mL"/>
                             <constraint firstAttribute="bottom" secondItem="EUe-q7-K8t" secondAttribute="bottom" id="6cL-4u-aSm"/>
                             <constraint firstItem="GOe-nT-Qpb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CUz-6p-ByK"/>
                             <constraint firstItem="EUe-q7-K8t" firstAttribute="top" secondItem="GOe-nT-Qpb" secondAttribute="bottom" constant="79" id="ELP-Nv-mKs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GOe-nT-Qpb" secondAttribute="trailing" id="Fha-4G-KcL"/>
-                            <constraint firstAttribute="bottom" secondItem="dOP-vI-Kw6" secondAttribute="bottom" id="FlA-xX-Rjp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I50-pc-yqx" secondAttribute="trailing" id="GhB-Uz-8K6"/>
-                            <constraint firstItem="dOP-vI-Kw6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q4q-6e-jVh"/>
+                            <constraint firstAttribute="bottom" secondItem="wgW-yk-4t6" secondAttribute="bottom" id="IAf-5r-5tc"/>
+                            <constraint firstItem="wgW-yk-4t6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LBT-vN-8re"/>
                             <constraint firstItem="I50-pc-yqx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c9y-CF-YfQ"/>
-                            <constraint firstItem="dOP-vI-Kw6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hMb-7j-0rt"/>
-                            <constraint firstItem="dOP-vI-Kw6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kD4-BG-3lk"/>
-                            <constraint firstItem="GOe-nT-Qpb" firstAttribute="centerX" secondItem="dOP-vI-Kw6" secondAttribute="centerX" id="mUw-bg-2nx"/>
+                            <constraint firstItem="wgW-yk-4t6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fLg-Jt-SCm"/>
+                            <constraint firstItem="wgW-yk-4t6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iTy-NX-7vc"/>
                             <constraint firstItem="I50-pc-yqx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nFJ-x5-PuQ"/>
                             <constraint firstItem="GOe-nT-Qpb" firstAttribute="top" secondItem="I50-pc-yqx" secondAttribute="bottom" constant="8" id="wK6-PW-dYz"/>
                             <constraint firstItem="EUe-q7-K8t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yGR-O9-SSt"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lapButton" destination="hOD-UE-Pk8" id="hoa-bv-XxM"/>
                         <outlet property="stopWatchLabel" destination="I50-pc-yqx" id="kja-Tl-BwE"/>
                         <outlet property="tabel" destination="EUe-q7-K8t" id="CHE-Jc-0mW"/>
                     </connections>
@@ -133,11 +132,11 @@
         <image name="ForrestGump" width="390" height="843.66668701171875"/>
         <image name="play.fill" catalog="system" width="117" height="128"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <namedColor name="Orange">
+            <color red="0.95200002193450928" green="0.67500001192092896" blue="0.33700001239776611" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <namedColor name="White">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
